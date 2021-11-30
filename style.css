@@ -1,0 +1,2218 @@
+
+        body{
+            width:1266px;
+            margin:0;
+            padding:0;   
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar{
+            background-color: rgba(32, 32, 32, 0.61);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            cursor: pointer;
+        }
+        .navbar li{
+            padding-top: 10px;
+            padding-left: 35px;
+            padding-right: 35px;
+            padding-bottom: 10px;
+            margin-top: 0px;
+        
+            float: left;
+            list-style: none;
+            font:bolder
+        }
+        .navbar a{
+            font-size: x-large;
+            text-decoration: none;
+        }
+        .navbar li a{
+            color: white;
+        }
+        .navbar li :hover{
+            color:rgb(5, 5, 5)
+        }
+        .box-main{
+            background-image: url(img/books.jpg);
+            height: 1000px;
+            align-items: right;
+            display: flex;
+            justify-content: right;
+            font-size: 75px;
+            font-family:  sans-serif;
+            font-style: oblique;
+            color: white;
+            padding-right: 70px;
+        }
+        .know_us{
+            height: 1000px;
+            padding-top: 50px;
+            font-size: 90px;
+            text-underline-position: below;
+            font-family:initial;
+            background-image: url(img/space.jpg);width: 1266px;height: 1200px;
+            height: 1000px;
+        
+        }        
+        .content{
+            padding: 450px;
+            font-size: 50px;
+            font-family: cursive;
+            font-style: oblique;
+            font-style: italic;
+            color: blue;
+            padding-right: 150px;
+        }
+        .even{
+            height: 1000px;
+            padding-top: 100px;
+            font-size: 90px;
+            font-family: cursive;
+            font-style: oblique;
+            font-style: italic;
+            background-image: url(img/events.jpg);width: 1266px;
+        }
+        .heading2{
+            float:right;
+            padding-right: 400px;
+            font-family:initial;
+        }
+        .contentE{
+            font-size: 70px;
+            font-style: oblique;
+            font-style: italic;
+            color: blue;
+            padding-top: 200px;
+            float:right;
+            padding-right: 200px;
+        }
+        .contentEn{
+            font-style: oblique;
+            font-style: italic;
+            font-size: 60px;
+            color: blue;
+            padding-top: 300px;
+            padding-left: 680px;
+        }
+        .bookst{
+            padding-top: 200px;
+        }
+        .headingB{
+            font-size: 100px;
+            padding-left: 400px;
+            padding-top: 1000px;
+            padding-bottom: 100px;
+            font-family:initial;
+        }
+        .container_L1
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            margin-top: 70px;
+            border-radius: 15px;
+            margin-left:50px ;
+            height: 400px;
+            float: left;
+        }
+        .hl1{
+            margin-top: 6px;
+            padding-left: 70px;
+            padding-top: 2px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorl1{
+            padding-left: 400px;
+            padding-right: 10px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgl1{
+            padding-top: 10px;
+            border-radius: 15px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionl1
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnl1{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            margin-top: 10px;
+            margin-left: 190px;
+        }
+        .container_R1
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-right: 50px;
+            height: 400px;
+            float: right;
+        }
+        .hr1{
+            margin-top: 6px;
+            padding-left: 30px;
+            padding-top: 2px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorr1{
+            padding-left: 400px;
+            padding-right: 10px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgr1{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionr1
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnr1{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            margin-top: 40px;
+            margin-left: 190px;
+        }
+        .container_L2
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-left: 50px;
+            height: 400px;
+            float: left;
+        }
+        .hl2{
+            margin-top: 6px;
+            padding-left: 10px;
+            padding-top: 2px;
+            padding-right: 10px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorl2{
+            padding-left: 400px;
+            padding-right: 10px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgl2{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionl2
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnl2{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            margin-top: 60px;
+            margin-left: 190px;
+        }
+        .container_L3
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-left:50px;
+            height: 400px;
+            width: auto;
+            float: left;
+        }
+        .hl3{
+            margin-top: 6px;
+            padding-left: 10px;
+            padding-top: 2px;
+            padding-right: 10px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorl3{
+            padding-left: 400px;
+            padding-right: 10px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgl3{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionl3
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnl3{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            margin-top: 6px;
+            margin-left: 250px;
+        }
+        .container_R3
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-right: 30px;
+            height: 400px;
+            width: auto;
+            float: right;
+        }
+        .hr3{
+            margin-top: 6px;
+            padding-left: 10px;
+            padding-top: 2px;
+            padding-right: 10px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorr3{
+            padding-left: 400px;
+            padding-right: 10px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgr3{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionr3
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnr3{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            margin-top: 0px;
+            margin-left: 200px;
+        }
+        .container_L4
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-left:50px;
+            height: 400px;
+            width: auto;
+            float: left;
+        }
+        .hl4{
+            margin-top: 5px;
+            padding-left: 10px;
+            padding-top: 2px;
+            padding-right: 10px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorl4{
+            padding-left: 400px;
+            padding-right: 10px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgl4{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionl4
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnl4{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            margin-top: 0 px;
+            margin-left: 200px;
+        }
+        .container_R4
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-right: 30px;
+            height: 400px;
+            width: auto;
+            float: right;
+        }
+        .hr4{
+            margin-top: 5px;
+            padding-left: 10px;
+            padding-top: 2px;
+            padding-right: 10px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorr4{
+            padding-left: 400px;
+            padding-right: 10px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgr4{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionr4
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnr4
+        {
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            display: flex;
+            margin-top: 10px;
+            margin-left: 330px;
+        }
+        .container_L5
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-left:50px;
+            height: 400px;
+            width: auto;
+            float: left;
+        }
+        .hl5{
+            padding-left: 10px;
+            padding-top: 2px;
+            padding-right: 10px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorl5{
+            padding-left: 400px;
+            padding-right: 10px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgl5{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+            height: 200px;
+        }
+        .descriptionl5
+        {
+            display: flex;
+            padding-top: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnl5{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            margin-top:20px;
+            margin-left: 390px;
+            display: flex;
+        }
+        .container_R5
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-right:40px;
+            height: 400px;
+            width: 500px;
+            float: right;
+        }
+        .hr5{
+            margin-top: 5px;
+            padding-left: 10px;
+            padding-top: 2px;
+            padding-right: 10px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorr5{
+            padding-left: 400px;
+            padding-right: 10px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgr5{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionr5
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnr5{
+             padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            display: flex;
+            margin-top: 40px;
+            margin-left: 330px;
+        }
+        .container_L6
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-left:50px;
+            height: 400px;
+            width: auto;
+            float: left;
+        }
+        .hl6{
+            margin-top: 5px;
+            padding-left: 10px;
+            padding-top: 2px;
+            padding-right: 10px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorl6{
+            padding-left: 400px;
+            padding-right: 10px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgl6{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionl6
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnl6{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            display: flex;
+            margin-top: 10px;
+            margin-left: 450px;
+        }
+        .container_R6
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-right:40px;
+            height: 400px;
+            width: 500px;
+            float: right;
+        }
+        .hr6{
+            margin-top: 5px;
+            padding-left: 5px;
+            padding-right: 0px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorr6{
+            padding-left: 350px;
+            padding-right: 10px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgr6{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionr6
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnr6{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            display: flex;
+            margin-top: 0px;
+            margin-left: 330px;
+        }
+        .container_L7
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-left:50px;
+            height: 400px;
+            width: auto;
+            float: left;
+        }
+        .hl7{
+            padding-left: 10px;
+            padding-top: 2px;
+            padding-right: 0px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorl7{
+            padding-left: 400px;
+            padding-right: 10px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgl7{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+            height: 200px;
+        }
+        .descriptionl7
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnl7{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            display: flex;
+            margin-top: 20px;
+            margin-left: 400px;
+        }
+        .container_R7
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-right:40px;
+            height: 400px;
+            width: 500px;
+            float: right;
+        }
+        .hr7{
+            margin-top: 6px;
+            padding-top: 2px;
+            padding-right: 10px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorr7{
+            padding-left: 400px;
+            padding-right: 2px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgr7{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionr7
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnr7{
+             padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            display: flex;
+            margin-top: 10px;
+            margin-left: 330px;
+        }
+        .container_L8
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-left:50px;
+            height: 400px;
+            width: auto;
+            float: left;
+        }
+        .hl8{
+            margin-top: 5px;
+            padding-left: 10px;
+            padding-top: 2px;
+            padding-right: 10px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorl8{
+            padding-left: 400px;
+            padding-right: 10px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgl8{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionl8
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnl8{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            display: flex;
+            margin-top: 10px;
+            margin-left: 330px;
+        }
+        .container_R8
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-right:40px;
+            height: 400px;
+            width: 500px;
+            float: right;
+        }
+        .hr8{
+            margin-top: 5px;
+            padding-top: 2px;
+            padding-right: 10px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorr8{
+            padding-left: 400px;
+            padding-right: 2px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgr8{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionr8
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnr8{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            display: flex;
+            margin-top: 10px;
+            margin-left: 330px;
+        }
+        .container_L9
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-left:50px;
+            height: 400px;
+            width: auto;
+            float: left;
+        }
+        .hl9{
+            margin-top: 5px;
+            padding-left: 10px;
+            padding-top: 2px;
+            padding-right: 10px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorl9{
+            padding-left: 400px;
+            padding-right: 10px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgl9{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionl9
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnl9{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            display: flex;
+            margin-top: 10px;
+            margin-left: 330px;
+        }
+        .container_R9
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-right:40px;
+            height: 400px;
+            width: 500px;
+            float: right;
+        }
+        .hr9{
+            margin-top: 5px;
+            padding-top: 2px;
+            padding-right: 10px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorr9{
+            padding-left: 400px;
+            padding-right: 2px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgr9{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionr9
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnr9{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            display: flex;
+            margin-top: 10px;
+            margin-left: 300px;
+        }
+        .container_L10
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-left:50px;
+            height: 400px;
+            width: auto;
+            float: left;
+        }
+        .hl10{
+            margin-top: 5px;
+            padding-left: 10px;
+            padding-top: 2px;
+            padding-right: 10px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorl10{
+            padding-left: 400px;
+            padding-right: 10px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgl10{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionl10
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnl10{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            display: flex;
+            margin-top: 15px;
+            margin-left: 330px;
+        }
+        .container_R10
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-right:40px;
+            height: 400px;
+            width: 500px;
+            float: right;
+        }
+        .hr10{
+            margin-top: 5px;
+            padding-top: 0px;
+            padding-right: 10px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorr10{
+            padding-left: 400px;
+            padding-right: 2px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgr10{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionr10
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnr10{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            display: flex;
+            margin-top: 10px;
+            margin-left: 330px;
+        }
+        .container_L11
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-left:50px;
+            height: 400px;
+            width: auto;
+            float: left;
+        }
+        .hl11{
+            margin-top: 3px;
+            padding-left: 10px;
+            padding-top: 2px;
+            padding-right: 10px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorl11{
+            margin-top: 0px;
+            padding-left: 400px;
+            padding-right: 10px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgl11{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionl11
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnl11{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            display: flex;
+            margin-top: 1px;
+            margin-left: 330px;
+        }
+        .container_R11
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-right:40px;
+            height: 400px;
+            width: 500px;
+            float: right;
+        }
+        .hr11{
+            margin-top: 5px;
+            padding-top: 0px;
+            padding-right: 10px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorr11{
+            padding-left: 400px;
+            padding-right: 2px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgr11{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionr11
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnr11{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            display: flex;
+            margin-top: 10px;
+            margin-left: 330px;
+        }
+        .container_L12
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-left:50px;
+            height: 400px;
+            width: auto;
+            float: left;
+        }
+        .hl12{
+            margin-top: 5px;
+            padding-left: 10px;
+            padding-top: 2px;
+            padding-right: 10px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorl12{
+            padding-left: 400px;
+            padding-right: 10px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgl12{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionl12
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnl12{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            display: flex;
+            margin-top: 10px;
+            margin-left: 330px;
+        }
+        .container_R12
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-right:40px;
+            height: 400px;
+            width: 500px;
+            float: right;
+        }
+        .hr12{
+            margin-top: 5px;
+            padding-top: 0px;
+            padding-right: 10px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorr12{
+            padding-left: 400px;
+            padding-right: 2px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgr12{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionr12
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnr12{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            display: flex;
+            margin-top: 10px;
+            margin-left: 280px;
+        }
+        .container_L13
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-left:50px;
+            height: 400px;
+            width: auto;
+            float: left;
+        }
+        .hl13
+        {
+            margin-top: 5px;
+            padding-left: 10px;
+            padding-top: 2px;
+            padding-right: 10px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorl13
+        {
+            padding-left: 400px;
+            padding-right: 10px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgl13{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionl13
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnl13{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            display: flex;
+            margin-top: 10px;
+            margin-left: 330px;
+        }
+        .container_R13
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-right:40px;
+            height: 400px;
+            width: 500px;
+            float: right;
+        }
+        .hr13{
+            margin-top: 5px;
+            padding-top: 0px;
+            padding-right: 10px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorr13{
+            padding-left: 400px;
+            padding-right: 2px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgr13{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionr13
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnr13{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            display: flex;
+            margin-top: 10px;
+            margin-left: 330px;
+        }
+        .container_L14
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-left:50px;
+            height: 400px;
+            width: auto;
+            float: left;
+        }
+        .hl14
+        {
+            margin-top: 5px;
+            padding-left: 10px;
+            padding-top: 2px;
+            padding-right: 10px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorl14
+        {
+            padding-left: 400px;
+            padding-right: 10px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgl14{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionl14
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnl14{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            display: flex;
+            margin-top: 10px;
+            margin-left: 330px;
+        }
+        .container_R14
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-right:40px;
+            height: 400px;
+            width: 500px;
+            float: right;
+        }
+        .hr14{
+            padding-top: 0px;
+            padding-right: 10px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorr14{
+            padding-left: 350px;
+            padding-right: 2px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgr14{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionr14
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnr14{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            display: flex;
+            margin-top: 100px;
+            margin-left: 330px;
+        }
+        .container_L15
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-left:50px;
+            height: 400px;
+            width: auto;
+            float: left;
+        }
+        .hl15
+        {
+            margin-top: 5 px;
+            padding-left: 10px;
+            padding-top: 2px;
+            padding-right: 10px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorl15
+        {
+            padding-left: 400px;
+            padding-right: 10px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgl15{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionl15
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnl15{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            display: flex;
+            margin-top: 10px;
+            margin-left: 330px;
+        }
+        .container_R15
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-right:40px;
+            height: 400px;
+            width: 500px;
+            float: right;
+        }
+        .hr15{
+            margin-top: 5px;
+            padding-top: 0px;
+            padding-right: 10px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorr15{
+            padding-left: 350px;
+            padding-right: 2px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgr15{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionr15
+        {
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnr15{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            display: flex;
+            margin-top: 10px;
+            margin-left: 330px;
+        }
+        .container_L16
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-left:50px;
+            height: 400px;
+            width: auto;
+            float: left;
+        }
+        .hl16
+        {
+            margin-top: 5px;
+            padding-left: 10px;
+            padding-top: 2px;
+            padding-right: 10px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorl16
+        {
+            padding-left: 400px;
+            padding-right: 10px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgl16{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionl16
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnl16{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            display: flex;
+            margin-top:0px;
+            margin-left: 400px;
+        }
+        .container_R16
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-right:40px;
+            height: 400px;
+            width: 500px;
+            float: right;
+        }
+        .hr16{
+            margin-top: 5px;
+            padding-top: 0px;
+            padding-right: 10px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorr16{
+            padding-left: 350px;
+            padding-right: 2px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgr16{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionr16
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnr16{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            display: flex;
+            margin-top: 10px;
+            margin-left: 330px;
+        }
+        .container_L17
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-left:50px;
+            height: 400px;
+            width: auto;
+            float: left;
+        }
+        .hl17
+        {
+            margin-top: 5px;
+            padding-left: 10px;
+            padding-top: 2px;
+            padding-right: 10px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorl17
+        {
+            padding-left: 400px;
+            padding-right: 10px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgl17{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionl17
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnl17{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            display: flex;
+            margin-top: 10px;
+            margin-left: 330px;
+        }
+        .container_R17
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-right:40px;
+            height: 400px;
+            width: 500px;
+            float: right;
+        }
+        .hr17{
+            margin-top: 5px;
+            padding-top: 0px;
+            padding-right: 10px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorr17{
+            padding-left: 350px;
+            padding-right: 2px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgr17{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionr17
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnr17{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            display: flex;
+            margin-top: 10px;
+            margin-left: 330px;
+        }.container_L18
+        {
+            background-color: rgb(233, 230, 230);
+            border:5px solid rgb(110, 109, 109);
+            border-radius: 15px;
+            margin-top: 70px;
+            margin-left:50px;
+            height: 400px;
+            width: auto;
+            float: left;
+        }
+        .hl18
+        {
+            margin-top: 5px;
+            padding-left: 10px;
+            padding-top: 2px;
+            padding-right: 10px;
+            font-size: 50px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .authorl18
+        {
+            padding-left: 400px;
+            padding-right: 10px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .imgl18{
+            padding-top: 10px;
+            padding-left: 30px;
+            display: flex;
+            box-shadow: 10px;
+            font-family:'Courier New';
+            display:flex;
+            float: left;
+            align-items: center;
+            justify-items: center;
+        }
+        .descriptionl18
+        {
+            display: flex;
+            padding-top: 20px;
+            padding-left: 20px;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+        }
+        .btnl18{
+            padding-top: 10px;
+            padding-bottom:10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 25px;
+            border-color: green;
+            background-color: greenyellow;
+            display: flex;
+            margin-top: 10px;
+            margin-left: 330px;
+        }
+        .many{
+            font-size: x-large;
+            font-style: italic;
+            margin-top: 8700px;
+            padding-left: 340px;
+            font-size: 80px;
+        }
+        .foot{
+            margin-top:90px;
+            background-color: rgb(6, 21, 107);
+            padding-bottom: 200px;
+            margin-bottom: 0px;
+        }
+        .cont{
+            padding-left: 500px;
+            color: white;
+            font-size: 100px;
+            font-style: oblique;
+            float: none;
+            padding-right: 500px;
+            display: flex;
+        }
+        .address
+        {
+            padding-top: 10px;
+            padding-left: 50px;
+            color: white;
+            font-size: 20px;
+            display: flex;
+            float: left;
+        }
+        .mob
+        {
+            padding-top: 10px;
+            float: right;
+            color: white;
+            font-size: 20px;
+            display: flex;
+            padding-right: 50px;
+        }
+        .insta
+        {
+            font-size: 30px;
+            color: white;
+            float: left;
+            padding-left: 310px;
+            padding-top: 10px;
+        }
+        .twitter
+        {
+            font-size: 30px;
+            color: white;
+            float: left;
+            padding-left: 310px;
+            padding-top: 10px;
+        }
+        .fb
+        {
+            font-size: 30px;
+            color: white;
+            float: left;
+            padding-left: 310px;
+            padding-top: 10px;
+        }
+        .sources
+        {
+            font-size: 15px;
+            color: aliceblue;
+            padding-top: 170px;
+        }
+        
+
+
+
+        
+        
+        

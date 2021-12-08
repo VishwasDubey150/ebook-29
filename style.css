@@ -1,8 +1,8 @@
   
         body{
             margin:0;
-            padding:0; 
-            width:1266px;
+            padding:0;
+            width: 1266px;   
         }
         html{
             scroll-behavior: smooth;
@@ -860,7 +860,7 @@
             margin-top: 0px;
             margin-bottom: 10px;
             margin-left: 550px;
-            font-size: 30px; 
+            font-size: 30px;
         
         }
         .container_12
@@ -1136,20 +1136,6 @@
             font-size: 30px; 
         }
         
-        .container_17
-        {
-            background-color: rgb(233, 230, 230);
-            border:5px solid rgb(110, 109, 109);
-            margin-top: 70px;
-            border-radius: 15px;
-            margin-left:50px ;
-            height: 550px;
-            padding-left: 20px;
-            padding-right:20px;
-            margin-left: 100px;
-            margin-right: 10px;
-
-        }
         .container_16
         {
             background-color: rgb(233, 230, 230);
@@ -1212,12 +1198,11 @@
             padding-right: 25px;
             border-radius: 25px;
             border-color: green;
-            display: flex;
-            float: right;
             background-color: greenyellow;
             margin-top: 0px;
             margin-bottom: 10px;
             margin-left: 550px;
+            font-size: 30px;
         }
         .container_17
         {
@@ -1285,6 +1270,7 @@
             margin-top: 0px;
             margin-bottom: 10px;
             margin-left: 550px;
+            font-size: 20px;
         }
         .container_18
         {
@@ -1352,6 +1338,7 @@
             margin-top: 0px;
             margin-bottom: 10px;
             margin-left: 550px;
+            font-size: 20px;
         }
         .container_19
         {
@@ -1419,6 +1406,7 @@
             margin-top: 0px;
             margin-bottom: 10px;
             margin-left: 550px;
+            font-size: 30px;
         }
         .container_20
         {
@@ -1486,6 +1474,7 @@
             margin-top: 0px;
             margin-bottom: 10px;
             margin-left: 550px;
+            font-size: 30px;
         }
         .container_21
         {
@@ -1553,6 +1542,7 @@
             margin-top: 0px;
             margin-bottom: 10px;
             margin-left: 550px;
+            font-size: 30px; 
         }
         .container_22
         {
@@ -1620,6 +1610,7 @@
             margin-top: 0px;
             margin-bottom: 10px;
             margin-left: 550px;
+            font-size: 30px;
         }
         .container_23
         {
@@ -1687,6 +1678,7 @@
             margin-top: 0px;
             margin-bottom: 10px;
             margin-left: 550px;
+            font-size: 30px;
         }
         .container_24
         {
@@ -1754,6 +1746,7 @@
             margin-top: 0px;
             margin-bottom: 10px;
             margin-left: 550px;
+            font-size: 30px;
         }
         .container_25
         {
@@ -1821,6 +1814,7 @@
             margin-top: 0px;
             margin-bottom: 10px;
             margin-left: 550px;
+            font-size: 30px;
         }
         .container_26
         {
@@ -1888,6 +1882,7 @@
             margin-top: 0px;
             margin-bottom: 10px;
             margin-left: 550px;
+            font-size: 30px;
         }
         .container_27
         {
@@ -1955,6 +1950,7 @@
             margin-top: 0px;
             margin-bottom: 10px;
             margin-left: 550px;
+            font-size: 30px;
         }
         .container_28
         {
@@ -2022,6 +2018,7 @@
             margin-top: 0px;
             margin-bottom: 10px;
             margin-left: 550px;
+            font-size: 30px;
         }
         .container_29
         {
@@ -2089,6 +2086,7 @@
             margin-top: 0px;
             margin-bottom: 10px;
             margin-left: 550px;
+            font-size: 30px;
         }
         .container_30
         {
@@ -2156,6 +2154,7 @@
             margin-top: 0px;
             margin-bottom: 10px;
             margin-left: 550px;
+            font-size: 30px;
         }
         .container_31
         {
@@ -2504,13 +2503,6 @@
         }
 
             
-        
-        
-
-
-
-        
-        
         
         
 

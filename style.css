@@ -2,7 +2,7 @@
         body{
             margin:0;
             padding:0;
-            width: 1266px;   
+            width: auto;   
         }
         html{
             scroll-behavior: smooth;

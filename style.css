@@ -41,7 +41,7 @@
             color:rgb(5, 5, 5)
         }
         .box-main{
-            background-image: url(img/books.jpg);width: 1266px;height: 998px;
+            background-image: url(img/books.jpg);width: 1196px;height: 998px;
             align-items: right;
             display: flex;
             justify-content: right;
